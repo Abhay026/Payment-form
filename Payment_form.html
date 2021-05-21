@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Payment Form </title>
     <link rel="stylesheet" href="style.css">
-    
+    <style>
+body{
+	background-color:#adf0dd;
+}
+	#footer:hover{
+	color:white;
+	background-color:black;
+	transition: all 0.5s ease-in-out;
+	}
+	#footer{
+	border: 2px black solid;
+	padding:20px;	
+	border-radius: 15px;
+}
+p{
+	color:green;
+}
+.name{
+	color:orange;
+}
+</style>
 </head>
 <body>
     <form action="">
         <h1 style="color: blue;"> <center> Payment form </center></h1>
-        <p>Required fields are followed by *</p>
+        <p >Required fields are followed by *</p>
         <h2> Contact Information</h2>
-        <p> Name : * <input type="text" name="Name" required ></p>
+        <p class="name"> Name : * <input type="text" name="Name" required ></p>
         <fieldset>
              <legend> Gender * </legend>
         <p>    
@@ -46,6 +69,6 @@
         <input type="submit" value="Pay Now">
     </form>  
     
-    <p style="padding-top:20px;padding-botton:20px;">Made By <a href="https://github.com/Abhay026">Abhay</a></p>
+    <p " style="padding-top:20px;padding-bottom:20px;text-align:center;"> Made By <a id="footer" href="https://github.com/Abhay026">Abhay</a>&#x2764;</p>
 </body>
 </html>
